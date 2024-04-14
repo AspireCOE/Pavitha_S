@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+          background-image: url('attendance.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+    <h1>Attendance Tracking Application</h1>
+    
+    <div id="register-form">
+        <h2>Register User</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <button onclick="registerUser()">Register</button>
+    </div>
+
+    <div id="create-event-form">
+        <h2>Create Event</h2>
+        <input type="text" id="eventName" placeholder="Event Name">
+        <input type="date" id="eventDate">
+        <button onclick="createEvent()">Create Event</button>
+    </div>
+
+    <div id="mark-attendance-form">
+        <h2>Mark Attendance</h2>
+        <input type="text" id="attendeeName" placeholder="Attendee Username">
+        <input type="text" id="eventId" placeholder="Event ID">
+        <button onclick="markAttendance()">Mark Attendance</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
