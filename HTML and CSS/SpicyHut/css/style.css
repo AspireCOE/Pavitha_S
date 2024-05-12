@@ -1,0 +1,137 @@
+:root{
+    --red:crimson;
+    --green:#53BF90;
+    --yellow:#FFC54D;  /* variables*/
+    --white:whitesmoke;
+
+}
+body,h2{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.landing{
+    background-image: url("../background_image.jpg");
+    background-size: cover;
+    background-position:center;
+    height:100vh;
+    color:var(--white);
+}
+header a{
+    text-decoration: none;
+    color:var(--yellow);
+}
+header{
+    display:flex;
+    padding:1em;
+}
+
+#logo
+{
+    flex:3;
+}
+
+nav{
+    flex:2;
+    display:flex;
+}
+nav a{
+    flex:1;
+
+}
+
+nav a:hover{
+    
+    color:var(--green);
+}
+.maintext
+{
+    display:flex;
+    flex-direction: column;
+    height:50vh;
+    justify-content: center;
+    padding:2em;
+    
+}
+.tagline1{
+    color:var(--red);
+    font-size: 2.5em;
+    font-weight:bolder;
+}
+.tagline2
+{
+    color:var(--yellow);
+
+}
+.maintext div{
+    margin-top:2em;
+  
+}
+.maintext button{
+    width:20vw;
+    margin-top:2em;
+    border-radius:10px;
+    padding:.7em;
+    background-color: var(--green);
+    color:var(--white);
+    border:1px solid var(--green);
+}
+.menu
+{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    background: linear-gradient(to right, rgb(78, 71, 71),rgb(48, 42, 42));
+    color:var(--white);
+}
+#menuheading, #locheading{
+    background: linear-gradient(to right, rgb(78, 71, 71),rgb(48, 42, 42));
+    font-size:2.5em;
+    color:var(--red);
+    display:flex;
+    justify-content: center;
+
+}
+.menu th{
+    color:var(--green);
+    font-size:1.8em;
+
+}
+table{
+    width:100%;
+    padding:1em;
+}
+.menu tr{
+    display:flex;
+    justify-content: center;
+    margin-top:.8em;
+}
+.menu td:nth-child(1)
+{
+    flex:1;
+    justify-self: left;
+
+}
+.menu td:nth-child(2){
+    justify-self: right;
+
+}
+.maincourse
+{
+    grid-row:span 2;
+}
+.locations
+{
+    background: linear-gradient(to right, rgb(78, 71, 71),rgb(48, 42, 42));
+    color:var(--white);
+    display:flex;
+    flex-wrap: wrap;
+}
+.locations h2{
+    color:var(--green);
+    margin:.8em;
+}
+.locations div{
+    flex:1;
+    padding:1em;
+    min-width: 220px;
+}

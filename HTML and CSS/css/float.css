@@ -1,0 +1,44 @@
+.outerbox{
+    background-color: bisque;
+    height:400px;
+    width:300px;
+    display:flex;
+    justify-content: left;
+}
+.box{
+    background-color: red;
+    border:2px blue;
+    height:100px;
+    width:100px;
+    display:flex;
+
+
+}
+.col p{
+    width:30%;
+    float:left;
+}
+
+.col p:nth-child(4)
+{
+    clear:left;
+}
+.para1{
+    background-color: aqua;
+}
+.para2
+{
+    background-color: blueviolet;
+}
+.para3
+{
+    background-color: aquamarine;
+
+}
+.para4
+{
+    background-color: chartreuse;
+}
+.col{
+    display:flex;
+}

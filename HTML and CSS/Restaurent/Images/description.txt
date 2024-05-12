@@ -1,0 +1,7 @@
+Should be the resposive website for that we can prefer bootstrap it will be more convenient
+avoid horizontal scrolling in the web pages, veritcal scrolling is ok but should avoid horizontal scrolling
+
+we have to clear which types of image we are using that is portrait and landscape
+
+different shades of color for that we can use jpeg
+ less number of color means we have to use png

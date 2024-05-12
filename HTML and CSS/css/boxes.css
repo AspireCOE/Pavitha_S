@@ -1,0 +1,59 @@
+h1{
+    border: 1px solid red;
+    width: 10px;
+}
+p{
+    border: 1px solid black;
+    max-width:1200px;
+    min-width:700px;
+    max-height:300px;   
+    overflow:scroll;
+                            /* sequence top right bottom left*/
+    border-width:3px 4px 5px 6px;
+    border-width:3px;
+    border-style:solid;
+    border-color:red;
+    width:80%;
+    border-top-style: double;
+    /* rounded border*/
+    border-radius:10px;
+
+}
+
+
+
+/* padding and margin */ /* the distance between text and border is padding */
+
+/*     margin
+                border
+
+                        padding
+
+
+                                content*/
+
+h2{
+    border:2px solid green;
+    border-width:2px 3px 4px 5px;
+    max-width: 1200px;
+    min width:100px;
+    max-height:100px;
+    overflow:scroll;
+    padding:15px; /* we have padding:top,padding-bottom*/
+    margin:20px auto 20px auto;  /* we have margin-top, margin-bottom*/ /* padding and margin wont inherit*/
+
+
+
+}
+li{
+    display: inline;
+    margin:10px;
+}
+.coming-soon{
+    display:none;
+    visibility: hidden;
+
+}
+
+
+

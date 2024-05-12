@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formDemo</title>
+</head>
+<body>
+
+    <!--Action we have to give on clicking the submit button which page should be dispallyed
+    method="post" is for to update the data base and is for server side(back end language should be used)
+    method="get" -->
+
+    <form action="signup.html" method="GET">
+
+        <div>
+            <label for="username"> Name</label>
+            <input type="text" name="username" id="username" value="Pavitha" maxlength="4" required>
+
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" >
+        </div>
+        <div>
+            <label for="password"> Password</label>
+            <input type="password" name="password" id="password" required minlength="8">
+        </div>
+        <div>
+            <label for="yearofbirth"> Year Of Birth</label>
+            <input type="number" name="yearofbirth" id="yearofbirth" maxlength="4" min="1900" step="10"> 
+        </div>
+        <div>
+            <label for="dateofbirth"> Date Of Birth</label>
+            <input type="date" name="dateofbirth" id="dateofbirth" min="1900-01-01">
+        </div>
+        <div>
+            <label for="address"> Address</label>
+            <textarea name="address" id="address" cols="20" rows="5">address</textarea>
+        </div>
+        <div>
+            
+            <input type="checkbox" name="smsalert" id="smsalert">
+            <label for="smsalert">SMS alert</label>
+        </div>
+        <div>
+            
+            <input type="checkbox" name="emailalert" id="emailalert">
+            <label for="emailalert">Email Alert</label>
+        </div>
+        <div>
+            <input type="hidden" name="hidden" id="hidden" value="123">
+        </div>
+           <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male"> Male</label>
+           </div>
+
+        <div>
+            <input type="radio" name="gender" id="female" value="female">
+           <label for="female">Female</label>
+        </div>
+
+        <div>
+            <select name="state" id="state" >
+                <option value="TamilNadu"> TamilNadu</option>
+                <option value="AndraPradesh">Andra Pradesh</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+            </select>
+        </div>
+        <div>
+            <label for="file"> Choose file</label>
+            <input type="file" name="file" id="file">
+        </div>
+       
+            <!-- <button type="submit"> signup</button> -->
+            <input type="image" src="submit.png" width="90">
+            <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>

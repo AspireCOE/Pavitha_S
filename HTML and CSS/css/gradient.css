@@ -1,0 +1,35 @@
+html{
+    font-size:10px;
+}
+.pencil
+{
+    font-size:1.5em;   /* em- check the parent  where as rem check the root*/
+
+}
+
+.para1
+{
+    font-size:2em;  /* em check the parent the size of the parent is 15 then it will be calculated as 30*/
+
+}
+.para2
+{
+    font-size:2rem; /* rem always check the root of the tag and calculate the font-size;*/
+
+}
+
+.vw
+{
+    width:50vw;
+    height:10vw;
+    border:2px solid black;
+
+}
+.box
+{
+    height:200px;
+    width:200px;
+    border: 3px;
+    background:linear-gradient(to top, aqua,blue,red,yellow);
+    margin:50px;
+}

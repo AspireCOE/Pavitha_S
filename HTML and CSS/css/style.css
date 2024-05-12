@@ -1,0 +1,59 @@
+/*   * is universal which is the collection of all tags 
+    # to access the id    id should be unique
+    . to access the class  it can be repeated
+
+    id should be more helpful while using java script otherwise we can use class
+    */
+
+
+    body {
+        color:chocolate
+    }
+/* universal selector*/
+*{
+    color:blue;
+}
+/*type selector*/
+h3,p{  
+    color:blue;
+    text-decoration: underline;            
+}
+p
+{
+    color:brown;
+}
+/* id selector */
+#softdev{
+    color:red;
+}
+
+/* class selector*/
+
+.greencolor{
+
+    color:green;
+}
+
+/* child selector */
+div>p{
+    color:orange;
+}
+div a{
+    color:rgb(117, 117, 54);
+}
+
+
+/*sibiling selector */
+h1~h4{
+    color:pink;
+}
+
+/* adjacent sibling selector */
+
+h1+h6{
+    color:blueviolet
+}
+
+h6{
+    color:aqua !important;
+}

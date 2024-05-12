@@ -1,0 +1,82 @@
+body{
+    font-family: 'Times New Roman', Times, serif;  /* font type with space we have to give single quote*/
+    font-size: 3px;
+    font-size: 100%;  /*100% is 16  px*/
+    font-size: 1em   /* 1em is 16px*/
+}
+
+h1,h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;  /* here 1 em=1.5~24px since body has 1.5 em now it calculated like 1.5*2 =48px;*/
+    font-weight:normal;
+    font-style:italic;
+    font-stretch: condensed;
+    text-transform: capitalize;
+    text-decoration: overline;
+
+}
+
+p{
+    line-height: 3em;
+    letter-spacing:0em;
+    word-spacing:0em;
+    text-align:left;
+    text-shadow:2px 2px 2px red;  /*left right distance
+                                      top/bottom distance
+                                      blur property 
+                                      color*/
+
+
+}
+p::first-letter{
+    font-size: 3em;
+
+
+}
+a:visited{
+    color:brown;
+}
+a:link{
+    color:blue
+}
+a:hover{
+    color:pink;
+
+}
+a:focus{
+    color:aqua;
+}
+a:active{
+    color:green;
+}
+p[class]
+{
+    color:orange;
+}
+p[class~='greentext']  /* in the list class we want to choose one class*/
+{
+
+}
+p[class ^='m']
+{
+    /* class name starts with m*/
+}
+p[class $='m']
+{
+    /* class name end with m*/
+}
+p[class*='ss']
+{
+    /* class name with this sub string*/
+}
+
+
+
+
+
+/* weight   style   stretch
+
+   light    normal  condensed
+   medium   italic  regular
+   black    oblique extended
+   bold*/

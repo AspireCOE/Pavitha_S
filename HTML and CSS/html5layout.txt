@@ -1,0 +1,10 @@
+instead of div html 5 introduce various menaingful tags
+
+<header> </header>
+<footer> </footer>  for terms and condition and copy rights
+<nav> </nav> to navigate into another page
+<hgroup></hgroup> to group the headings
+
+<article> </article> for block post
+<section> <.section> paritcular group of topics
+<aside> <aside> for extra information

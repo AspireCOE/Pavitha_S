@@ -1,0 +1,37 @@
+.para1{
+    background-color: aqua;
+}
+.para2
+{
+    background-color: blueviolet;
+}
+.para3
+{
+    background-color: aquamarine;
+
+}
+.para4
+{
+    background-color: chartreuse;
+}
+
+@media (min-width:801px)
+{
+    .container p{
+        width:30%;
+        float:left;
+        padding:10px;
+    }
+
+    .para4{
+        background-color: blue;
+    }
+    .container p:nth-child(4)
+    {
+        clear:left;
+    }
+}
+
+@media print{
+    background-color: none;
+}
