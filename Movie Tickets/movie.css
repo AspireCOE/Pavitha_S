@@ -1,0 +1,50 @@
+body
+{
+    background-image: url("register_background.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    color:red;
+}
+
+.book
+{
+   
+
+    display: grid;
+    grid-template-columns: repeat(4,223px);
+    gap:30px;
+    justify-content: center;
+    margin-top: 125px;
+    color:black;
+
+}
+.heading{
+    text-align: center;
+}
+
+@media (max-width:1000px)
+{
+    .book{
+        grid-template-columns: repeat(2,223px);
+    }
+}
+@media(max-width:500px)
+{
+    .book{
+        grid-template-columns: repeat(1,223px);
+    }
+}
+.movie
+{
+    border:1px solid black;
+    border-radius: 4px;
+    border-image-slice: fill;
+    
+}
+
+.moviedetails
+{
+    display: flex;
+    flex-direction:column;
+}
